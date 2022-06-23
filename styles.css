@@ -1,0 +1,108 @@
+/*
+colores a usar
+blanco
+#ffdee9
+#ffc1d3
+#fc4787
+#fc1567
+#da0350
+*/
+
+*{
+	font-family: 'Raleway', sans-serif;
+	box-sizing: border-box;
+	background-color: #ffdee9;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    min-width: 380px;
+}
+
+*:first-letter {
+    text-transform: capitalize;
+}
+
+.roundBorder {
+    border-radius: 5px;
+}
+
+.list {
+    margin: 10px auto;
+    padding: 10px;
+    width: 100%;
+    max-width: 350px;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dateRight {
+    display: flex;
+    align-items: center;
+}
+
+#dateNumber {
+    font-size: 50px;
+}
+
+#dateText {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+#dateMonth, #dateNumber, #dateText  {
+    font-weight: bold;
+}
+
+#dateMonth, #dateYear {
+    margin-left: 7px;
+    font-size: 20px;
+}
+
+form {
+    margin: 20px 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: auto 35px auto;
+    grid-column-gap: 15px;
+}
+
+#taskText {
+	border-radius: 5px;
+	padding: 0.2em;
+	background-color: white;
+	border: none;
+}
+
+.addTaskButton {
+	height: 35px;
+	border: none;
+	padding: 0.2em;
+	background-color: white;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.toDo {
+	border-radius: 5px;
+	background-color: #ffc1d3;
+	padding: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.done {
+    border-radius: 5px;
+    background-color: #fc4787;
+    padding: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+    text-decoration: line-through;
+}
